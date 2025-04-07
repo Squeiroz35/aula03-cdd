@@ -12,4 +12,4 @@ if somaminutos >= 60:
     somahoras= somahoras +1
 if somahoras > 24:
    somahoras= somahoras -24
-print (somahoras,somaminutos)
+print (f"{somahoras}:{somaminutos}")
